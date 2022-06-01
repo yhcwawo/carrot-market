@@ -1,5 +1,15 @@
+import { NextPage } from "next";
+
+const Home = () => {
+  return (
+      <div className="bg-red-100">
+        <h1 className="text-black">
+          it works
+        </h1>
 
 
-export default function Home() {
-  return null;
-}
+      </div>
+  );
+};
+
+export default Home;
